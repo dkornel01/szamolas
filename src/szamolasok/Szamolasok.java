@@ -1,20 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package szamolasok;
 
-/**
- *
- * @author Dobrocsi Kornél
- */
+
 public class Szamolasok {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+    int[] szamok={2,3,4};
+    String megold="";
+    int elsoszam=0;
+    int masodikszam=0;
+    int harmadikszam=0;
+    for (int i=0;i<szamok.length;i++){
+         elsoszam=szamok[i];
+        for (int x=0;x<szamok.length;x++){
+             masodikszam=szamok[x];
+            for (int y=0;y<szamok.length;y++){
+                 harmadikszam=szamok[y];
+                System.out.println(szamok[i]+""+szamok[x]+""+szamok[y]);
+            }
+        }
+       }
     }
     
 }
